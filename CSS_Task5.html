@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: arial;
+      }
+
+      .sidebar {
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        position: fixed;
+        z-index: 1;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        font-size: large;
+        display: block;
+        margin-left: -28px;
+        padding: 6px 12px;
+        color: blue;
+        background-color: #f1f1f1;
+      }
+      .color-info {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      .sidebar a:hover {
+        color: rgb(61, 60, 60);
+      }
+      .main {
+        color: rgb(163, 16, 163);
+        margin-left: 160px;
+        padding: 0 10px;
+      }
+
+      .margin {
+        border: 1px dotted black;
+        width: 600px;
+        background-color: rgb(205, 205, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="margin">
+      <div class="sidebar">
+        <ul>
+          <li><a class="color-info" href="Homepage">Homepage</a></li>
+          <li><a href="Musings">Musings</a></li>
+          <li><a href="My town">My town</a></li>
+          <li><a href="Links">Links</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <h2><strong>My first styled page</strong></h2>
+        <p>Welcome to my first styled page!</p>
+
+        <p>
+          It lacks images but atleast it has style.<br />And it has links even
+          if they don't go anywhere.
+        </p>
+
+        <p class="border">
+          there should be more here,but I don't know what yet
+        </p>
+        <p>Made 5th april 2004<br />by myself</p>
+      </div>
+    </div>
+  </body>
+</html>
